@@ -24,7 +24,7 @@ RegisterNetEvent('rex-horsetrainer:server:updatexp', function(amount)
     end
 
     -- check valid amount
-    if type(amount) ~= 'number' or amount <= 0 or amount > 10 then
+    if type(amount) ~= 'number' or amount <= 0 or amount > Config.MaxXPGain then
         print(('^1[rex-horsetrainer] WARNING: Invalid XP amount (%s) from player %s^7'):format(tostring(amount), src))
         TriggerClientEvent('ox_lib:notify', src, {
             title = 'Horse Training',
