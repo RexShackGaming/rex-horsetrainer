@@ -203,12 +203,13 @@ Config.LeadingWait = 5000
 
 ## Support
 
-For issues, bug reports, or feature requests, please check your server logs for error messages and review the configuration. Enable debug mode for detailed information.
-
-## Version History
-
-- **v2.1.1**: Current stable release with full XP system and job integration
+- [RSG Discord](https://discord.gg/eW3ADkf4Af)
 
 ## License
 
-See LICENSE file for details.
+This project is licensed under the terms specified in the LICENSE file.
+
+---
+
+**Author:** RexShack
+**Support Me:** [Buy me a Beer](https://buymeacoffee.com/rexshack)
